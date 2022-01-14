@@ -45,7 +45,7 @@ ul {
 .head-box{
    background-color:#1f2937;
    color:white;
-   height:600px;
+   height:350px;
 }
 
 
@@ -88,4 +88,28 @@ img{
    display:flex
    flex-direction:table-column
    flex-wrap:wrap;
+}
+
+.page-content{
+   border:solid;
+   padding-bottom: 250px;
+   
+}
+
+.wrap-page{
+   display:flex;
+   justify-content:space-around;
+}
+.box{
+   background-color: blue;
+   width: 100px;
+   height: 90px;
+   border: solid;
+   border-radius: 5px;
+   margin:0;
+}
+.box-text{
+   width:100px;
+   border: solid;
+   text-align: center;
 }
