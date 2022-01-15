@@ -49,7 +49,7 @@ ul {
 }
 
 
-button{
+.head-button {
    background-color:#3882F6;
    border-radius: 5px;
    color:white;
@@ -86,30 +86,85 @@ img{
 
 .header-text-button-wrap {
    display:flex
-   flex-direction:table-column
+   flex-direction:row;
    flex-wrap:wrap;
 }
 
 .page-content{
-   border:solid;
-   padding-bottom: 250px;
+   
+   padding-bottom: 100px;
    
 }
 
 .wrap-page{
    display:flex;
-   justify-content:space-around;
+   justify-content:center;
+   gap:30px;
+   margin-top: 40px;
+   
 }
 .box{
-   background-color: blue;
    width: 100px;
-   height: 90px;
-   border: solid;
-   border-radius: 5px;
-   margin:0;
+   height: 100px;
+   border: solid #3882F6;
+   border-radius: 20px;
+   margin-bottom:10px;
+   display:flex;
+   align-items:center;
+   justify-content:center;
 }
 .box-text{
    width:100px;
-   border: solid;
-   text-align: center;
+   
+   text-align: center
+}
+
+.page-stuff-2{
+   background-color: lightgray;
+   display:flex;
+   justify-content:center;
+   align-content: center;
+   align-items:center;
+   height:400px;
+   color:#E5E7EB;
+   margin:0;
+}
+
+.container{
+   display:flex;
+   align-items:center;
+   width:539px;
+   color:black;
+   flex-direction: column;
+   align-items:flex-end;
+
+}
+h2, p {
+   margin:0;
+   padding:0;
+}
+
+.footer{
+   background-color: #3882F6;
+   align-items:center;
+   justify-content:space-around;
+   width:650px;
+   height:100px;
+   display:flex;
+   flex-direction: row;
+   
+   margin:auto;
+   margin-top:50px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+   color:white;
+   margin-bottom: 50px;
+}
+.footer-button{
+   background-color: #3882F6;
+   height:20px;
+   border-radius:5px;
+   border: 1px solid white;
+   width:70px;
+   color:white;
 }
